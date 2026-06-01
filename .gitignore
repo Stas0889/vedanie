@@ -1,5 +1,3 @@
-brief.md
-content.md
-project.md
-qa.md
-references.md
+sample-*.zip
+.DS_Store
+Thumbs.db
