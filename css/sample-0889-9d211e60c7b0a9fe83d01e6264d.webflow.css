@@ -632,6 +632,16 @@ blockquote {
   display: grid;
 }
 
+.vedanie-access-grid.flax {
+  display: flex;
+}
+
+.vedanie-access-grid.flax.max-w-70 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .vedanie-offer-card__body {
   grid-column-gap: 1.25rem;
   grid-row-gap: 1.25rem;
@@ -1965,6 +1975,10 @@ blockquote {
 
   .vedanie-access-grid {
     margin-top: 2rem;
+  }
+
+  .vedanie-access-grid.flax.max-w-70 {
+    width: 100%;
   }
 
   .vedanie-offer-card__body {
