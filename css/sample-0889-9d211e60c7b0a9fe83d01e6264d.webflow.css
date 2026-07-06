@@ -742,6 +742,10 @@ blockquote {
   color: var(--text-r);
 }
 
+.vedanie-text.yellow {
+  color: var(--yellow);
+}
+
 .vedanie-heading--h1 {
   font-family: Cormorantgaramond Variablefont Wght, Arial, sans-serif;
   font-size: 6.7rem;
@@ -1038,6 +1042,10 @@ blockquote {
   inset: 1.88rem;
 }
 
+.div-block-37386._2 {
+  pointer-events: none;
+}
+
 .image-14 {
   width: 1.25rem;
   height: 1.25rem;
@@ -1081,6 +1089,21 @@ blockquote {
 }
 
 .div-block-37389 {
+  z-index: 4;
+  background-image: url('../images/bg-4.webp');
+  background-position: 0%;
+  background-size: auto;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 10rem;
+  height: 32rem;
+  display: flex;
+  position: absolute;
+  inset: 17% auto 0% -6%;
+  overflow: visible;
+}
+
+.bg {
   z-index: 4;
   background-image: url('../images/bg-4.webp');
   background-position: 0%;
@@ -1157,6 +1180,10 @@ blockquote {
 
 .text-main-20 {
   font-size: 1.25rem;
+}
+
+.text-main-20.grey {
+  color: var(--grey);
 }
 
 .image-17 {
@@ -1290,6 +1317,13 @@ blockquote {
 }
 
 .image-34 {
+  z-index: 1;
+  width: 32rem;
+  min-width: 32rem;
+  height: 32rem;
+}
+
+.bg-image {
   z-index: 1;
   width: 32rem;
   min-width: 32rem;
@@ -1641,6 +1675,137 @@ blockquote {
 .text-block-3 {
   font-size: 1.38rem;
   font-weight: 500;
+}
+
+.div-block-37399-copy {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.monthly-events__grid {
+  grid-column-gap: 5.63rem;
+  grid-row-gap: 5.63rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 90%;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.monthly-events__card {
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+  border: 1px solid var(--text-r);
+  text-align: center;
+  border-radius: .63rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem 1.5rem 2rem;
+  display: flex;
+  position: relative;
+}
+
+.monthly-events__card.none-border {
+  z-index: 2;
+  border-style: none;
+  border-color: var(--yellow);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.monthly-events__icon {
+  width: 9.38rem;
+  height: 9.38rem;
+}
+
+.image-37 {
+  width: 1rem;
+  height: 1rem;
+  margin-right: auto;
+}
+
+.image-37._2 {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.monthly-events__month {
+  grid-column-gap: .63rem;
+  grid-row-gap: .63rem;
+  border: 1px solid var(--text-r);
+  text-transform: uppercase;
+  border-radius: 10rem;
+  justify-content: center;
+  align-items: center;
+  min-width: 14rem;
+  height: 3rem;
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.18rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.div-block-37419 {
+  grid-column-gap: .7rem;
+  grid-row-gap: .7rem;
+  flex-flow: column;
+  display: flex;
+}
+
+.monthly-events__decor-line {
+  z-index: 5;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 11.7rem auto auto -6.2rem;
+}
+
+.monthly-events__decor-line._2 {
+  bottom: auto;
+  left: auto;
+  right: -5.7rem;
+}
+
+.monthly-events__star {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.monthly-events__line {
+  background-color: #746a46;
+  width: 5rem;
+  height: 1px;
+}
+
+.monthly-events__bottom {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.div-block-37422 {
+  background-color: #142619;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -2181,6 +2346,10 @@ blockquote {
     display: none;
   }
 
+  .bg {
+    display: none;
+  }
+
   .image-15 {
     width: 1.4rem;
   }
@@ -2235,6 +2404,10 @@ blockquote {
     width: 100%;
   }
 
+  .div-block-37399-copy {
+    width: 100%;
+  }
+
   .image-22 {
     inset: -7% 0% auto auto;
     transform: rotate(-91deg);
@@ -2244,6 +2417,54 @@ blockquote {
     width: 20rem;
     height: 20rem;
     inset: -15% -51% auto auto;
+  }
+
+  .bg-image {
+    width: 20rem;
+    height: 20rem;
+    inset: -15% -51% auto auto;
+  }
+
+  .monthly-events__grid {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .monthly-events__icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .monthly-events__month {
+    min-width: 13rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    box-shadow: 0 0 18px 11px #d2c29e0d;
+  }
+
+  .monthly-events__decor-line {
+    top: -2.6rem;
+    left: auto;
+    transform: rotate(90deg);
+  }
+
+  .monthly-events__decor-line._2 {
+    display: none;
+    top: auto;
+    bottom: -2.2rem;
+    right: auto;
+  }
+
+  .monthly-events__line {
+    width: 3rem;
+  }
+
+  .monthly-events__bottom {
+    width: 100%;
+    margin-top: 1rem;
   }
 
   .div-block-37401 {
