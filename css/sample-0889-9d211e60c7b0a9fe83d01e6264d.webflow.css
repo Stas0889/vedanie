@@ -181,13 +181,23 @@ blockquote {
 }
 
 .h2 {
-  font-size: 4.3rem;
-  font-weight: 500;
+  font-family: Cormorantgaramond Variablefont Wght, Arial, sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
   line-height: .9;
 }
 
 .h2.demo-mini {
   font-size: 3rem;
+}
+
+.h2.strok {
+  color: #4b4a47;
+  letter-spacing: -.5px;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .navbar__menu-link {
@@ -360,7 +370,7 @@ blockquote {
 
 .vedanie-brand__text {
   text-align: left;
-  font-family: Cormorantgaramond Variablefont Wght, Arial, sans-serif;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.1;
@@ -746,10 +756,22 @@ blockquote {
   color: var(--yellow);
 }
 
+.vedanie-text.strok {
+  color: #4b4a47;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.vedanie-text.strok.white {
+  color: var(--lite-greey);
+}
+
 .vedanie-heading--h1 {
-  font-family: Cormorantgaramond Variablefont Wght, Arial, sans-serif;
-  font-size: 4.9rem;
-  line-height: .7;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 4.1rem;
+  line-height: .8;
   position: relative;
   left: -.38rem;
 }
@@ -757,10 +779,15 @@ blockquote {
 .vedanie-heading__h2 {
   font-family: Cormorantgaramond Variablefont Wght, Arial, sans-serif;
   font-size: 3rem;
+  font-weight: 500;
 }
 
 .vedanie-heading__h2.height-1 {
   line-height: 1;
+}
+
+.vedanie-heading__h2.strok.white {
+  color: var(--grey);
 }
 
 .vedanie-heading--h3 {
@@ -772,6 +799,21 @@ blockquote {
 
 .vedanie-heading--h3.size-middle {
   font-size: 3.1rem;
+  line-height: .9;
+}
+
+.vedanie-heading--h3.strok {
+  color: #4b4a47;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.vedanie-heading--h3.strok-midle {
+  color: #4b4a47;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
   line-height: .9;
 }
 
@@ -790,6 +832,12 @@ blockquote {
   line-height: 1;
 }
 
+.vedanie-price__value.strok {
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
 .vedanie-price__note {
   font-family: Manrope, Arial, sans-serif;
   font-size: 1.6rem;
@@ -798,7 +846,7 @@ blockquote {
 
 .text-span {
   color: var(--text-r);
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   position: relative;
   left: 8px;
 }
@@ -3109,6 +3157,22 @@ blockquote {
   position: relative;
 }
 
+.about__cell {
+  border: 1px solid var(--beige);
+  border-radius: 1.2rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .63rem;
+  display: flex;
+  position: relative;
+}
+
+.heading-copy {
+  color: var(--text-r);
+  margin-top: .63rem;
+  font-size: 1.4rem;
+}
+
 @media screen and (max-width: 991px) {
   .navbar__menu-link {
     justify-content: flex-start;
@@ -3643,8 +3707,9 @@ blockquote {
 
 @media screen and (max-width: 479px) {
   .h2 {
-    font-size: 2rem;
-    line-height: .9;
+    font-size: 1.88rem;
+    font-weight: 500;
+    line-height: 1;
   }
 
   .h2.mob-large {
@@ -3657,6 +3722,10 @@ blockquote {
 
   .h2.samodiagnostica {
     font-size: 1.9rem;
+  }
+
+  .h2.strok {
+    font-size: 1.6rem;
   }
 
   .btn {
@@ -3720,6 +3789,7 @@ blockquote {
   }
 
   .vedanie-hero__icons.mob {
+    margin-bottom: 2rem;
     display: grid;
   }
 
@@ -3840,8 +3910,13 @@ blockquote {
     font-size: 1.88rem;
   }
 
+  .vedanie-text.strok {
+    font-size: 1.3rem;
+  }
+
   .vedanie-heading--h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
+    line-height: .9;
     left: 0;
   }
 
@@ -3851,6 +3926,14 @@ blockquote {
   }
 
   .vedanie-heading--h3.size-middle {
+    font-size: 1.4rem;
+  }
+
+  .vedanie-heading--h3.strok {
+    font-size: 1.3rem;
+  }
+
+  .vedanie-heading--h3.strok-midle {
     font-size: 1.4rem;
   }
 
@@ -3864,13 +3947,17 @@ blockquote {
     font-size: 2.4rem;
   }
 
+  .vedanie-price__value.strok {
+    font-size: 1.9rem;
+  }
+
   .vedanie-price__note {
     font-size: 1rem;
   }
 
   .text-span {
     color: var(--text-r);
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     left: 0;
   }
 
@@ -4302,6 +4389,15 @@ blockquote {
   .vedanie-manifest__grid {
     grid-column-gap: 1.4rem;
     grid-row-gap: 1.4rem;
+  }
+
+  .about__cell {
+    height: 24rem;
+  }
+
+  .heading-copy {
+    margin-top: 0;
+    font-size: 1.1rem;
   }
 }
 
