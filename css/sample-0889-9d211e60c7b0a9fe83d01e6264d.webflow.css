@@ -34,12 +34,15 @@
   --lite-greey: #e5e3dd;
   --white: white;
   --yellow: #d2c29e;
+  --purpur: #4e2d44;
   --black: #2f291d;
+  --light-purpur: #c0a4c0;
   --text-r: #98712e;
   --beige: #dacdbd;
   --dark-green: #2c2c20;
   --dark-beige: #dacdbd;
   --grey: #d1cdc2;
+  --gray: #58524b;
 }
 
 .w-checkbox {
@@ -236,6 +239,18 @@ blockquote {
   background-color: #bfac81;
 }
 
+.btn.is-hormonia {
+  background-color: var(--purpur);
+  border-width: 2px;
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
+  box-shadow: 0 0 0 1px #0000002b;
+}
+
+.btn.is-hormonia:hover {
+  background-color: #6a375a;
+}
+
 .btn-3 {
   color: #fff;
   background-color: #e98f8f00;
@@ -309,7 +324,7 @@ blockquote {
 }
 
 .heckbox {
-  border: 1px solid var(--text-r);
+  border: 1px solid var(--light-purpur);
   width: 1.5rem;
   min-width: 1.5rem;
   height: 1.5rem;
@@ -335,6 +350,10 @@ blockquote {
   box-shadow: 0 0 #0000;
 }
 
+.heckbox.is-hormone {
+  border-color: var(--light-purpur);
+}
+
 .container {
   z-index: 2;
   width: 100%;
@@ -348,6 +367,10 @@ blockquote {
 
 .height-100 {
   height: 100%;
+}
+
+.vedanie-page.is-harmone {
+  background-color: #ebe9d8;
 }
 
 .vedanie-navbar {
@@ -420,6 +443,12 @@ blockquote {
   position: relative;
 }
 
+.vedanie-hero.hormon {
+  background-image: url('../images/hero-bg.webp');
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .vedanie-hero__actions {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -444,6 +473,10 @@ blockquote {
 
 .vedanie-hero__icons.mob {
   display: none;
+}
+
+.vedanie-section._2.is-hormone {
+  background-image: url('../images/ChatGPT-Image-25-июл.-2026-г.-11_05_23.webp');
 }
 
 .vedanie-section__grid {
@@ -536,6 +569,14 @@ blockquote {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  position: relative;
+}
+
+.vedanie-about.is-harmone {
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
 }
 
 .vedanie-study-list {
@@ -556,12 +597,20 @@ blockquote {
   overflow: clip;
 }
 
+.vedanie-audit.is-hormone {
+  background-image: url('../images/ChatGPT-Image-25-июл.-2026-г.-11_05_23.webp');
+}
+
 .vedanie-audit__card {
   border: 1px solid var(--beige);
   background-color: #f9f0e6;
   border-radius: 1rem;
   padding: 2.2rem 1.88rem 1.88rem;
   box-shadow: 0 3px 15px #98712e33;
+}
+
+.vedanie-audit__card.is-hormone {
+  border-color: var(--light-purpur);
 }
 
 .vedanie-audit__result {
@@ -577,6 +626,10 @@ blockquote {
   position: relative;
 }
 
+.vedanie-audit__result.is-hormone {
+  border-color: var(--light-purpur);
+}
+
 .vedanie-system {
   background-image: url('../images/ChatGPT-Image-29-мая-2026-г.-23_36_51.webp');
   background-position: 50%;
@@ -584,6 +637,11 @@ blockquote {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.vedanie-system.is-harmone {
+  background-image: none;
+  position: relative;
 }
 
 .vedanie-inside {
@@ -596,6 +654,10 @@ blockquote {
   position: relative;
 }
 
+.vedanie-inside.is-harmone {
+  background-image: none;
+}
+
 .vedanie-feature-grid {
   grid-column-gap: 1.88rem;
   grid-row-gap: 1.88rem;
@@ -604,9 +666,13 @@ blockquote {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   margin-top: 2.5rem;
   display: flex;
+}
+
+.vedanie-feature-grid._2 {
+  margin-bottom: 2.5rem;
 }
 
 .vedanie-feature-card {
@@ -621,6 +687,11 @@ blockquote {
   display: flex;
   position: relative;
   overflow: clip;
+}
+
+.vedanie-feature-card.is-hormone {
+  border-color: var(--purpur);
+  height: auto;
 }
 
 .vedanie-access {
@@ -679,6 +750,10 @@ blockquote {
   padding-left: 1.25rem;
 }
 
+.vedanie-price.is-hormone {
+  border-left-color: var(--purpur);
+}
+
 .vedanie-check-list {
   grid-column-gap: 1.2rem;
   grid-row-gap: 1.2rem;
@@ -697,6 +772,10 @@ blockquote {
   display: flex;
 }
 
+.vedanie-navigation-note.is-hormone {
+  border-color: var(--purpur);
+}
+
 .vedanie-manifest {
   background-color: #f4eadc;
   background-image: url('../images/ChatGPT-Image-29-мая-2026-г.-22_54_07.webp');
@@ -709,6 +788,10 @@ blockquote {
   overflow: clip;
 }
 
+.vedanie-manifest.is-harmone {
+  background-image: none;
+}
+
 .vedanie-living {
   opacity: 1;
   background-image: url('../images/ChatGPT-Image-29-мая-2026-г.-23_43_44.webp');
@@ -717,6 +800,11 @@ blockquote {
   padding-top: 8rem;
   padding-bottom: 8rem;
   position: relative;
+}
+
+.vedanie-living.is-harmone {
+  opacity: 1;
+  background-image: none;
 }
 
 .vedanie-image-holder {
@@ -733,6 +821,15 @@ blockquote {
   color: var(--beige);
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.vedanie-card-number.is-hormone {
+  color: #584b588a;
+  font-weight: 800;
+}
+
+.vedanie-card-number.is-hormone._80 {
+  color: #584b58e3;
 }
 
 .vedanie-image-placeholder {
@@ -768,12 +865,25 @@ blockquote {
   color: var(--lite-greey);
 }
 
+.vedanie-text.strok.white-hormone {
+  color: #efe6f1;
+}
+
+.vedanie-text.is-hormone {
+  color: var(--purpur);
+}
+
 .vedanie-heading--h1 {
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
   font-size: 4.1rem;
   line-height: .9;
   position: relative;
   left: -.38rem;
+}
+
+.vedanie-heading--h1.is-hormone {
+  font-family: Manrope, Arial, sans-serif;
+  font-size: 5rem;
 }
 
 .vedanie-heading__h2 {
@@ -788,6 +898,10 @@ blockquote {
 
 .vedanie-heading__h2.strok.white {
   color: var(--grey);
+}
+
+.vedanie-heading__h2.strok.white-hormone {
+  color: #efe6f1;
 }
 
 .vedanie-heading--h3 {
@@ -807,6 +921,10 @@ blockquote {
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+.vedanie-heading--h3.strok.is-hormone {
+  color: var(--purpur);
 }
 
 .vedanie-heading--h3.strok-midle {
@@ -849,6 +967,10 @@ blockquote {
   font-size: 3.5rem;
   position: relative;
   left: 8px;
+}
+
+.text-span.t-color-gormon {
+  color: var(--purpur);
 }
 
 .hero__icon {
@@ -904,11 +1026,12 @@ blockquote {
   color: var(--lite-greey);
   text-align: center;
   flex-flow: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   font-size: 1.13rem;
   font-weight: 500;
   display: flex;
+  position: relative;
 }
 
 .vedanie-label {
@@ -920,6 +1043,10 @@ blockquote {
 
 .vedanie-label.light {
   color: var(--yellow);
+}
+
+.vedanie-label.light-hormon {
+  color: #efe6f1;
 }
 
 .vedanie-header {
@@ -934,6 +1061,10 @@ blockquote {
   background-image: linear-gradient(87deg, #fdf8f4, var(--dark-beige) 0%, #fdfaf666);
   width: 20%;
   height: .13rem;
+}
+
+.vedanie-manifest__line.is-harmone {
+  background-image: linear-gradient(87deg, #4e2d4480, #dacdbd00 100%, #fdfaf666);
 }
 
 .vedanie-header__image {
@@ -1020,6 +1151,11 @@ blockquote {
   position: relative;
 }
 
+.vedanie-split__cell-2.is-hormone {
+  border-color: #4e2d4452;
+  height: 48rem;
+}
+
 .vedanie-statement__list-image {
   width: 1.88rem;
   height: auto;
@@ -1058,6 +1194,15 @@ blockquote {
   display: flex;
 }
 
+.vedanie-split__img.is-hormone {
+  height: 48rem;
+}
+
+.vedanie-split__img._25rem {
+  object-position: 50% 0%;
+  height: 48rem;
+}
+
 .div-block-37385 {
   z-index: 2;
   position: absolute;
@@ -1089,6 +1234,10 @@ blockquote {
   inset: 1.88rem;
 }
 
+.div-block-37386._2.is-hormone {
+  border-color: #c0a4c0;
+}
+
 .image-14 {
   width: 1.25rem;
   height: 1.25rem;
@@ -1114,6 +1263,10 @@ blockquote {
   bottom: -.7rem;
 }
 
+.div-block-37387.bottom.is-hormone {
+  background-color: #2b202c;
+}
+
 .div-block-37387.mini {
   width: .9rem;
   top: -.15rem;
@@ -1125,6 +1278,14 @@ blockquote {
   width: .9rem;
   top: -.15rem;
   left: 1.13rem;
+}
+
+.div-block-37387.is-hormone {
+  background-color: #342935;
+}
+
+.div-block-37387._9e779e {
+  background-color: #4d3d48;
 }
 
 .div-block-37388 {
@@ -1144,6 +1305,13 @@ blockquote {
   position: absolute;
   inset: 17% auto 0% -6%;
   overflow: visible;
+}
+
+.bg.is-hormone {
+  background-image: url('../images/image-9.png'), url('../images/ChatGPT-Image-25-июл.-2026-г.-11_05_23.webp');
+  background-position: 0 0, 50% 100%;
+  background-size: auto, auto;
+  top: 42%;
 }
 
 .image-15 {
@@ -1169,6 +1337,7 @@ blockquote {
 }
 
 .vedanie-hero-image {
+  opacity: 1;
   width: auto;
   height: 90svh;
 }
@@ -1191,6 +1360,10 @@ blockquote {
   padding: .63rem;
   display: flex;
   position: relative;
+}
+
+.div-block-37381-copy.diagnos {
+  border-color: var(--purpur);
 }
 
 .div-block-37391 {
@@ -1216,6 +1389,10 @@ blockquote {
 
 .text-main-20._w-600 {
   font-weight: 600;
+}
+
+.text-main-20.white-hormone {
+  color: #d5ced5;
 }
 
 .image-17 {
@@ -1275,6 +1452,10 @@ blockquote {
   display: flex;
 }
 
+.footer.is-hormone {
+  background-image: url('../images/ChatGPT-Image-25-июл.-2026-г.-11_05_23.webp');
+}
+
 .vedanie-system__cell {
   grid-column-gap: 1.88rem;
   grid-row-gap: 1.88rem;
@@ -1319,17 +1500,35 @@ blockquote {
   grid-row-gap: 1rem;
   justify-content: center;
   align-items: center;
+  width: 100%;
   display: flex;
 }
 
 .header-section__line {
-  background-image: linear-gradient(87deg, #fdf8f4, var(--dark-beige) 0%, #fdfaf666);
+  background-image: linear-gradient(87deg, #dacdbd, #fdf8f400 100%, #fdfaf666);
   width: 15%;
   height: .13rem;
 }
 
 .header-section__line._2 {
+  background-image: linear-gradient(87deg, #dacdbd, #fcf4fd00 100%, #fdfaf666);
   transform: rotate(180deg);
+}
+
+.header-section__line._2.is-hormone {
+  background-image: linear-gradient(87deg, #4e2d4480, #50156600 100%, #fdfaf666);
+}
+
+.header-section__line._2.is-hormone-light {
+  background-image: linear-gradient(87deg, #d0bdda, #fdfaf666 100%, #fcf4fd00);
+}
+
+.header-section__line.is-hormone {
+  background-image: linear-gradient(87deg, #4e2d4480, #50156600 100%, #fdfaf666);
+}
+
+.header-section__line.is-hormone-light {
+  background-image: linear-gradient(87deg, #d0bdda, #fdf8f400 100%, #fdfaf666);
 }
 
 .div-block-37399 {
@@ -1348,6 +1547,12 @@ blockquote {
   position: absolute;
   inset: auto 0% -14% auto;
   transform: rotate(-85deg);
+}
+
+.image-22.is-hormone {
+  opacity: .4;
+  width: 6rem;
+  inset: auto 0% -8% auto;
 }
 
 .bg-image {
@@ -1396,6 +1601,10 @@ blockquote {
   padding: .63rem 1.2rem;
 }
 
+.div-block-37405.is-hormone {
+  border-color: var(--purpur);
+}
+
 .vedanie-feature-bg-decor {
   z-index: 1;
   width: 32rem;
@@ -1413,6 +1622,10 @@ blockquote {
   min-height: 1rem;
   margin-top: .19rem;
   transform: rotate(45deg);
+}
+
+.div-block-37406.t-color-gormon {
+  border-color: var(--purpur);
 }
 
 .div-block-37407 {
@@ -3030,6 +3243,10 @@ blockquote {
   align-items: center;
 }
 
+.monthly-events__card.is-hormone {
+  border-color: #c0a4c0;
+}
+
 .monthly-events__icon {
   width: 9.38rem;
   height: 9.38rem;
@@ -3064,6 +3281,10 @@ blockquote {
   display: flex;
 }
 
+.monthly-events__month.is-hormone {
+  border-color: var(--light-purpur);
+}
+
 .div-block-37419 {
   grid-column-gap: .7rem;
   grid-row-gap: .7rem;
@@ -3092,7 +3313,7 @@ blockquote {
 }
 
 .monthly-events__line {
-  background-color: #746a46;
+  background-color: #c0a4c0;
   width: 5rem;
   height: 1px;
 }
@@ -3108,12 +3329,22 @@ blockquote {
   display: flex;
 }
 
+.monthly-events__bottom.is-hormone {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  flex-flow: column;
+}
+
 .div-block-37422 {
   background-color: #142619;
   justify-content: center;
   align-items: center;
   height: 2rem;
   display: flex;
+}
+
+.div-block-37422.is-hormone {
+  background-color: #5d4956;
 }
 
 .vedanie-manifest__grid {
@@ -3167,6 +3398,10 @@ blockquote {
   position: relative;
 }
 
+.about__cell.is-hormone {
+  border-color: #4e2d4452;
+}
+
 .heading-copy {
   color: var(--text-r);
   margin-top: .63rem;
@@ -3175,6 +3410,262 @@ blockquote {
 
 .text-span-6 {
   font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.div-block-37425 {
+  width: 80%;
+}
+
+.g-vedanie-hero__icons {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.25rem;
+  border: 1px solid var(--light-purpur);
+  background-color: #f1e7db;
+  border-radius: 1rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1.25fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 85%;
+  margin-top: 1.05rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  display: grid;
+  box-shadow: 0 0 0 4px #f1e7db;
+}
+
+.g-vedanie-hero__icons.mob {
+  display: none;
+}
+
+.g-vedanie-hero__actions {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  max-width: 70%;
+  display: flex;
+}
+
+.g-vedanie-hero__icon-item {
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.div-block-37426 {
+  background-color: var(--yellow);
+  border-radius: .94rem;
+  width: .13rem;
+  height: 70%;
+  position: absolute;
+  inset: auto 0% auto auto;
+}
+
+.div-block-37374-co {
+  grid-column-gap: .63rem;
+  grid-row-gap: .63rem;
+  border-right: 1px solid var(--yellow);
+  color: var(--lite-greey);
+  text-align: left;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.13rem;
+  font-weight: 500;
+  display: flex;
+  position: relative;
+}
+
+.div-block-37374-co.last {
+  border-right-style: none;
+}
+
+.t-color-gormon {
+  color: var(--purpur);
+}
+
+.text-span-hormone {
+  color: var(--purpur);
+  font-size: 4.3rem;
+  position: relative;
+  left: 8px;
+}
+
+.text-span-hormone.t-color-gormon {
+  color: var(--purpur);
+}
+
+.image-38 {
+  width: 1.88rem;
+  height: 1.88rem;
+  margin-left: 1.5rem;
+}
+
+.vedanie-section-paragraph {
+  color: var(--gray);
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 1.5rem;
+}
+
+.vedanie-section-paragraph.max-w-70 {
+  width: 68%;
+}
+
+.g-hero__icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.g-hero__icon.mob {
+  display: none;
+}
+
+.g-vedanie-hero__content {
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 2.5rem;
+  flex-flow: column;
+  max-width: 53%;
+  height: 100%;
+  display: flex;
+}
+
+.image-39 {
+  opacity: .22;
+  position: absolute;
+  inset: 0%;
+}
+
+.section-bg {
+  opacity: .54;
+  position: absolute;
+  inset: 0%;
+}
+
+.image-40-copy {
+  opacity: .4;
+  position: absolute;
+  inset: 0%;
+}
+
+.div-block-37 {
+  grid-column-gap: 1.88rem;
+  grid-row-gap: 1.88rem;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.div-block {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.text-28 {
+  font-size: 1.75rem;
+}
+
+.text-26 {
+  font-size: 1.63rem;
+}
+
+.text-26.white-hormone {
+  color: #d5ced5;
+}
+
+.div-block-37427 {
+  width: 79%;
+}
+
+.div-block-37428 {
+  text-align: center;
+  width: 71%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-span-7 {
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.vedanie-year-grid {
+  grid-column-gap: 1.88rem;
+  grid-row-gap: 1.88rem;
+  flex-flow: column;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 75%;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.vedanie-year-grid._2 {
+  margin-bottom: 2.5rem;
+}
+
+.vedanie-year-card {
+  grid-column-gap: .63rem;
+  grid-row-gap: .63rem;
+  border-bottom: 1px solid var(--light-purpur);
+  flex-flow: row;
+  grid-template-rows: auto;
+  grid-template-columns: .5fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  place-items: center start;
+  padding-bottom: 1.88rem;
+  padding-left: 1.88rem;
+  padding-right: 1.88rem;
+  display: grid;
+  position: relative;
+  overflow: clip;
+}
+
+.vedanie-year-card.is-hormone {
+  border-color: var(--purpur);
+  height: auto;
+}
+
+.vedanie-year-bg-decor {
+  z-index: 1;
+  width: 32rem;
+  height: 32rem;
+  position: absolute;
+  inset: 46% auto 0% -14%;
+}
+
+.text-span-8 {
+  color: var(--light-purpur);
+}
+
+.text-span-9 {
+  font-weight: 600;
+}
+
+.text-span-10 {
+  color: var(--purpur);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn.is-hormonia:hover {
+    background-color: #653e59;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -3707,6 +4198,17 @@ blockquote {
   .uqx-large-img {
     height: 22rem;
   }
+
+  .vedanie-year-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vedanie-year-card {
+    min-height: auto;
+    padding-bottom: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3737,6 +4239,12 @@ blockquote {
     font-size: .8rem;
   }
 
+  .btn.is-hormonia {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .checkbox-field {
     justify-content: flex-start;
     align-items: flex-start;
@@ -3764,6 +4272,12 @@ blockquote {
     height: auto;
     min-height: 59rem;
     padding-top: 5.1rem;
+  }
+
+  .vedanie-hero.hormon {
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 62rem;
   }
 
   .vedanie-hero__lead {
@@ -3880,6 +4394,10 @@ blockquote {
     padding-bottom: 1.88rem;
   }
 
+  .vedanie-feature-card.is-hormone {
+    height: auto;
+  }
+
   .vedanie-access-grid {
     margin-top: 2rem;
   }
@@ -3899,6 +4417,10 @@ blockquote {
   .vedanie-check-list {
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
+  }
+
+  .vedanie-manifest.is-harmone {
+    background-position: 0%;
   }
 
   .vedanie-card-number {
@@ -3922,6 +4444,10 @@ blockquote {
     font-size: 2.2rem;
     line-height: 1;
     left: 0;
+  }
+
+  .vedanie-heading--h1.is-hormone {
+    font-size: 1.8rem;
   }
 
   .vedanie-heading--h3 {
@@ -4005,6 +4531,10 @@ blockquote {
     display: none;
   }
 
+  .vedanie-manifest__line.is-harmone {
+    display: block;
+  }
+
   .vedanie-header__image {
     width: 1.2rem;
     height: 1.2rem;
@@ -4051,7 +4581,7 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
-  .vedanie-split__cell-2 {
+  .vedanie-split__cell-2, .vedanie-split__cell-2.is-hormone {
     height: 24rem;
   }
 
@@ -4080,6 +4610,10 @@ blockquote {
     grid-column-gap: .5rem;
     grid-row-gap: .5rem;
     font-size: 1rem;
+  }
+
+  .vedanie-split__img.is-hormone, .vedanie-split__img._25rem {
+    height: 100%;
   }
 
   .div-block-37386 {
@@ -4158,6 +4692,10 @@ blockquote {
 
   .header-section__line {
     display: none;
+  }
+
+  .header-section__line._2.is-hormone, .header-section__line.is-hormone, .header-section__line.is-hormone-light {
+    display: block;
   }
 
   .div-block-37399 {
@@ -4407,6 +4945,147 @@ blockquote {
   .text-span-6 {
     font-size: 1.13rem;
   }
+
+  .div-block-37425 {
+    width: 100%;
+  }
+
+  .g-vedanie-hero__icons {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1.2rem 1rem .5rem;
+    display: grid;
+    position: static;
+    inset: auto 0% -12.2rem;
+    box-shadow: 0 0 0 3px #f1e7db;
+  }
+
+  .g-vedanie-hero__icons.mob {
+    margin-bottom: 2rem;
+    display: grid;
+  }
+
+  .g-vedanie-hero__icons.ps {
+    display: none;
+  }
+
+  .g-vedanie-hero__actions {
+    grid-column-gap: .63rem;
+    grid-row-gap: .63rem;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .g-vedanie-hero__icon-item {
+    color: var(--dark-green);
+    font-size: .88rem;
+  }
+
+  .g-vedanie-hero__icon-item.mob-whide {
+    color: var(--lite-greey);
+    font-size: .75rem;
+  }
+
+  .div-block-37374-co {
+    border-bottom: 1px solid var(--yellow);
+    border-right-style: none;
+    padding-bottom: .7rem;
+  }
+
+  .div-block-37374-co.ps {
+    display: none;
+  }
+
+  .div-block-37374-co.last {
+    border-bottom-style: none;
+  }
+
+  .text-span-hormone {
+    font-size: 2.2rem;
+    left: 0;
+  }
+
+  .image-38 {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    display: none;
+  }
+
+  .vedanie-section-paragraph {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .vedanie-section-paragraph.max-w-70 {
+    width: 100%;
+  }
+
+  .g-hero__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .g-vedanie-hero__content {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    max-width: 100%;
+  }
+
+  .div-block-37, .div-block {
+    width: 100%;
+  }
+
+  .text-28 {
+    font-size: 1.33rem;
+  }
+
+  .text-26 {
+    font-size: 1.13rem;
+  }
+
+  .div-block-37427, .div-block-37428 {
+    width: 100%;
+  }
+
+  .vedanie-year-grid {
+    grid-column-gap: 1.88rem;
+    grid-row-gap: 1.88rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    width: 100%;
+    display: flex;
+  }
+
+  .vedanie-year-card {
+    flex-flow: column;
+    grid-template-columns: .5fr;
+    place-items: start;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.88rem;
+    display: flex;
+  }
+
+  .vedanie-year-card.is-hormone {
+    height: auto;
+  }
+
+  .vedanie-year-bg-decor {
+    width: 20rem;
+    min-width: 20rem;
+    height: auto;
+    inset: -45% -64% auto auto;
+  }
 }
 
 #w-node-a680e26b-9458-50e1-3c43-6a6e55630572-a71344e3 {
@@ -4417,8 +5096,16 @@ blockquote {
   grid-area: 2 / 2 / 3 / 3;
 }
 
-#w-node-_791a483a-d53c-2c80-7f4d-dcc52e287144-a71344e3, #w-node-_791a483a-d53c-2c80-7f4d-dcc52e28714d-a71344e3, #w-node-_97433932-ea24-fb62-6299-537d1db52e25-bfc3a6fb, #w-node-_97433932-ea24-fb62-6299-537d1db52e2e-bfc3a6fb {
+#w-node-_13cdb498-f190-528d-4f4e-f90a6719bb1d-6719bb19, #w-node-_13cdb498-f190-528d-4f4e-f90a6719bb28-6719bb19, #w-node-_97433932-ea24-fb62-6299-537d1db52e25-bfc3a6fb, #w-node-_97433932-ea24-fb62-6299-537d1db52e2e-bfc3a6fb {
   grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-a680e26b-9458-50e1-3c43-6a6e55630572-f09f519d {
+  grid-area: span 2 / span 1 / span 2 / span 1;
+}
+
+#w-node-b5cd4f8d-622e-ebfb-cf5b-c5695517680a-f09f519d {
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 @media screen and (max-width: 479px) {
@@ -4431,6 +5118,18 @@ blockquote {
   }
 
   #w-node-ab7e21a9-ecd0-9be9-93b8-b4714b588cbf-a71344e3, #w-node-ab7e21a9-ecd0-9be9-93b8-b4714b588cbf-bfc3a6fb {
+    order: -9999;
+  }
+
+  #w-node-a680e26b-9458-50e1-3c43-6a6e55630572-f09f519d {
+    grid-row: span 1 / span 1;
+  }
+
+  #w-node-b5cd4f8d-622e-ebfb-cf5b-c5695517680a-f09f519d {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  #w-node-ab7e21a9-ecd0-9be9-93b8-b4714b588cbf-f09f519d {
     order: -9999;
   }
 }
