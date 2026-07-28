@@ -694,6 +694,15 @@ blockquote {
   height: auto;
 }
 
+.vedanie-feature-card.is-hormone-slide {
+  border-color: var(--purpur);
+  background-image: url('../images/ChatGPT-Image-24-июл.-2026-г.-17_32_03.webp');
+  background-position: 0 0;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+}
+
 .vedanie-access {
   background-image: url('../images/ChatGPT-Image-29-мая-2026-г.-22_54_07.webp');
   background-position: 50%;
@@ -719,6 +728,7 @@ blockquote {
 
 .vedanie-access-grid.flax.max-w-70 {
   width: 70%;
+  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3662,6 +3672,54 @@ blockquote {
   font-weight: 600;
 }
 
+.slider {
+  background-color: #ddd0;
+  margin-top: 3rem;
+  padding: 0;
+}
+
+.mask {
+  height: 100%;
+}
+
+.slide {
+  width: 32.5%;
+  height: 100%;
+  margin-right: 1%;
+}
+
+.left-arrow {
+  background-color: var(--dark-beige);
+  border-radius: 10rem;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  inset: 0% auto 0% -6%;
+}
+
+.icon {
+  width: 55%;
+  height: 55%;
+  font-size: 70%;
+}
+
+.right-arrow {
+  background-color: var(--beige);
+  border-radius: 10rem;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  inset: 0% -6% 0% auto;
+}
+
+.slide-nav {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .btn.is-hormonia:hover {
     background-color: #653e59;
@@ -4394,7 +4452,7 @@ blockquote {
     padding-bottom: 1.88rem;
   }
 
-  .vedanie-feature-card.is-hormone {
+  .vedanie-feature-card.is-hormone, .vedanie-feature-card.is-hormone-slide {
     height: auto;
   }
 
@@ -4404,6 +4462,7 @@ blockquote {
 
   .vedanie-access-grid.flax.max-w-70 {
     width: 100%;
+    margin-top: 1.4rem;
   }
 
   .vedanie-offer-card__body {
@@ -4737,7 +4796,17 @@ blockquote {
     font-size: 1.1rem;
   }
 
-  .div-block-37408, .footer__wrapper, .div-block-37410 {
+  .div-block-37408 {
+    width: 100%;
+  }
+
+  .footer__wrapper {
+    grid-column-gap: 1.4rem;
+    grid-row-gap: 1.4rem;
+    width: 100%;
+  }
+
+  .div-block-37410 {
     width: 100%;
   }
 
@@ -5085,6 +5154,35 @@ blockquote {
     min-width: 20rem;
     height: auto;
     inset: -45% -64% auto auto;
+  }
+
+  .slider {
+    height: auto;
+    margin-top: 1.4rem;
+  }
+
+  .slide {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .left-arrow {
+    width: 3rem;
+    height: 3rem;
+    left: -4%;
+  }
+
+  .icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .right-arrow {
+    width: 3rem;
+    height: 3rem;
+    right: -4%;
   }
 }
 
