@@ -3245,6 +3245,10 @@ blockquote {
   position: relative;
 }
 
+.monthly-events__card[hidden] {
+  display: none;
+}
+
 .monthly-events__card.none-border {
   z-index: 2;
   border-style: none;
