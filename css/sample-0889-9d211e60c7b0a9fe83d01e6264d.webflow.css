@@ -722,6 +722,10 @@ blockquote {
   display: grid;
 }
 
+.vedanie-access-grid.is-stacked {
+  grid-template-columns: 1fr;
+}
+
 .vedanie-access-grid.flax {
   display: flex;
 }
