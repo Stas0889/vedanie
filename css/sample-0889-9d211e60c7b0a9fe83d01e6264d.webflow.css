@@ -5269,3 +5269,8 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+.vedanie-offer-card .div-block-37408:has(.course-details-btn){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.vedanie-offer-card .btn.course-details-btn{display:flex;align-items:center;justify-content:center;background:transparent;color:#8a631f;border:1px solid #9e742d;text-align:center;text-decoration:none;padding:20px 24px}
+.vedanie-offer-card .btn.course-details-btn:hover{background:#eee4d3;color:#654514}
+.vedanie-offer-card .btn.course-details-btn:focus-visible{outline:2px solid #8a631f;outline-offset:4px}
+@media(max-width:767px){.vedanie-offer-card .div-block-37408:has(.course-details-btn){grid-template-columns:minmax(0,1fr);gap:12px}}
