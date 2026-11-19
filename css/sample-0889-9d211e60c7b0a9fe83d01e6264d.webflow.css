@@ -5274,3 +5274,9 @@ blockquote {
 .vedanie-offer-card .btn.course-details-btn:hover{background:#eee4d3;color:#654514}
 .vedanie-offer-card .btn.course-details-btn:focus-visible{outline:2px solid #8a631f;outline-offset:4px}
 @media(max-width:767px){.vedanie-offer-card .div-block-37408:has(.course-details-btn){grid-template-columns:minmax(0,1fr);gap:12px}}
+.tantra-tariff-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.vedanie-offer-card--residence .tantra-tariff-actions .btn{width:100%;min-width:0;justify-content:center}
+.vedanie-offer-card--residence .btn.course-details-btn{display:flex;align-items:center;justify-content:center;background:transparent;color:var(--purpur);border:2px solid var(--purpur);text-align:center;text-decoration:none;padding:20px 24px}
+.vedanie-offer-card--residence .btn.course-details-btn:hover{background:#f3eaf0}
+.vedanie-offer-card--residence .btn.course-details-btn:focus-visible{outline:2px solid var(--purpur);outline-offset:4px}
+@media(max-width:767px){.tantra-tariff-actions{grid-template-columns:minmax(0,1fr);gap:12px}}
